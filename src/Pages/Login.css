@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 19px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+}
+  
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+    width: 100px;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.loginForm input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #868383;
+}
+.loginForm label{
+    text-align: justify;
+    
+}
+
+.username-block{
+    display: flex;
+    gap: 50px;
+    font-size: 19px;
+}
+.password-block{
+    display: flex;
+    gap: 50px;
+    font-size: 19px;
+}
+
+.loginbtn{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: large;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    align-self: center;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #3b8b0c 0.36%, #edff47 102.0%);
+}
+
+.loginbtn:hover{
+    transform: scale(1.05);
+}
+
+.loginForm p{
+    width: max-content;
+    align-self: center;
+    justify-content: center;
+    
+}
+.login-signupbtn span{
+    display: flex;
+    cursor: pointer;
+    font-size: 13px;
+    color: blue;
+    justify-content: center;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 19px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+}
+  
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.signupForm{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    width: 90%;
+    height: auto;
+}
+
+.signupForm-left{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.signupForm-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.signupForm input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #868383;
+}
+
+.signupForm label{
+    display: flex;
+    width: max-content;
+    height: 31px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*.username-block{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    justify-items: center;
+}
+.email-block{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+.password-block{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+.conpassword-block{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.signupForm label {
+    align-self: left;
+    text-align: left;
+} */
+
+.signupBtn{
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    align-self: center;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #3b8b0c 0.36%, #edff47 102.0%);
+}
+
+.signupBtn:hover{
+    transform: scale(1.05);
+}
+
