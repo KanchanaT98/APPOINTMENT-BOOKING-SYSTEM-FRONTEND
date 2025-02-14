@@ -64,10 +64,10 @@ const SignUp = () => {
                     <label className='signupForm-conpasswordlbl'>Confirm Password:</label>
                 </div>
                 <div className='signupForm-right'>
-                    <input type='text' name = 'username' value={userName} onChange = { (e) => {setUserName(e.target.value);}} placeholder=' Username'/>
-                    <input type='text' name = 'email' value={email} onChange = { (e) => {setEmail(e.target.value);}} placeholder=' Email'/>
-                    <input type='password' name = 'password' value={password} onChange = { (e) => {setPassword(e.target.value);}} placeholder=' Password' autoComplete='off'/>
-                    <input type='password' name = 'conPassword' value={conPassword} onChange = { (e) => {setConPassword(e.target.value);}} placeholder=' Confirm Password' autoComplete='off'/>
+                    <input type='text' name = 'username' value={userName} onChange = { (e) => {setUserName(e.target.value);}} placeholder=' Username' autoComplete='off' spellCheck="false"/>
+                    <input type='text' name = 'email' value={email} onChange = { (e) => {setEmail(e.target.value);}} placeholder=' Email' autoComplete='off' spellCheck="false"/>
+                    <input type='password' name = 'password' value={password} onChange = { (e) => {setPassword(e.target.value);}} placeholder=' Password' autoComplete='off' spellCheck="false"/>
+                    <input type='password' name = 'conPassword' value={conPassword} onChange = { (e) => {setConPassword(e.target.value);}} placeholder=' Confirm Password' autoComplete='off' spellCheck="false"/>
                 </div>
             </div>
             <button className="signupBtn" type="submit" onClick={handleSubmit}>SignUp</button>
