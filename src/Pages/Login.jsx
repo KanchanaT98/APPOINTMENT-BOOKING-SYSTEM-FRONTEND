@@ -55,11 +55,11 @@ const Login = () => {
             <div className='loginForm'>
                 <div className='username-block'>
                     <label id='loginForm-usernamelbl'>Username</label>
-                    <input type='text' name = 'username' value={userName} onChange = { (e) => {setUserName(e.target.value);}} placeholder=' Username'/>
+                    <input type='text' name = 'username' value={userName} onChange = { (e) => {setUserName(e.target.value);}} placeholder=' Username' autoComplete='off' spellCheck="false"/>
                 </div>
                 <div className='password-block'>
                     <label id='loginForm-passwordlbl'>Password</label>
-                    <input type='password' name = 'password' value={password} onChange = { (e) => {setPassword(e.target.value);}} placeholder=' Password' autoComplete='off'/>
+                    <input type='password' name = 'password' value={password} onChange = { (e) => {setPassword(e.target.value);}} placeholder=' Password' autoComplete='off' spellCheck="false"/>
                 </div>
                 <button className="loginbtn" type="save" onClick={handleSubmit}>Login</button>
                 <p className="login-signupbtn" type="button">Click here to<span onClick={signup}>SIGNUP</span></p>
