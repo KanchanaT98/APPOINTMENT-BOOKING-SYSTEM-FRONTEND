@@ -66,8 +66,8 @@ const SignUp = () => {
                 <div className='signupForm-right'>
                     <input type='text' name = 'username' value={userName} onChange = { (e) => {setUserName(e.target.value);}} placeholder=' Username'/>
                     <input type='text' name = 'email' value={email} onChange = { (e) => {setEmail(e.target.value);}} placeholder=' Email'/>
-                    <input type='text' name = 'password' value={password} onChange = { (e) => {setPassword(e.target.value);}} placeholder=' Password'/>
-                    <input type='text' name = 'conPassword' value={conPassword} onChange = { (e) => {setConPassword(e.target.value);}} placeholder=' Confirm Password'/>
+                    <input type='password' name = 'password' value={password} onChange = { (e) => {setPassword(e.target.value);}} placeholder=' Password' autoComplete='off'/>
+                    <input type='password' name = 'conPassword' value={conPassword} onChange = { (e) => {setConPassword(e.target.value);}} placeholder=' Confirm Password' autoComplete='off'/>
                 </div>
             </div>
             <button className="signupBtn" type="submit" onClick={handleSubmit}>SignUp</button>
